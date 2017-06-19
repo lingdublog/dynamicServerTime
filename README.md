@@ -21,8 +21,8 @@ new dynamicServerTime ({
 因涉及到dom操作，所以运行次方法时要确定dom结构已加载完毕，例：
 ```
 window.onload = function(){
-new dynamicServerTime ({
-  eleId: 'time'
-})
+  new dynamicServerTime ({
+    eleId: 'time'
+  })
 }
 ```
