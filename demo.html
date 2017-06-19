@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>动态展示服务器时间</title>
+</head>
+<body>
+  <h2 id="time"></h2>
+  <script src="1.js"></script>
+  <script>
+    window.onload = function () {
+      dynamicServerTime ({
+        eleId: 'time',
+        // url: 'http://127.0.0.1:8080/getTime' // 不传默认取客户端当前时间
+      })
+    }
+  </script>
+</body>
+</html>
