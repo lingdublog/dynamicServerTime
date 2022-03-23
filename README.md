@@ -18,7 +18,7 @@ new dynamicServerTime ({
 - format: 'y-m-d h:i:s w' // 输出格式，y年m月d日h时i分s秒w周，默认'y-m-d h:i:s w'
 
 # 注意事项
-因涉及到dom操作，所以运行次方法时要确定dom结构已加载完毕，例：
+因涉及到dom操作，所以运行此方法时要确定dom结构已加载完毕，例：
 ```
 window.onload = function(){
   new dynamicServerTime ({
